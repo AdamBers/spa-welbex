@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 30px;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.navbar {
+  flex: 1
+}
+
+h4 {
+  margin: 0 10px;
+}
+
+h5 {
+  margin: 50px 0;
+  text-align: justify;
+}
+
+.menu {
+  display: flex;
+  flex: 4;
+
+}
+
+
+.task-item {
+  display: flex;
+  font-size: 18px;
+}
+
+.task-item-id {
+  flex: 1;
+  margin: 10px;
+  /* text-align: center; */
+}
+
+.task-item-title {
+  flex: 20;
+  margin: 10px
+}
+
+.content {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.input-text {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0
+}
+
+
+input {
+  width: 350px;
+}
+
+.pagination {
+  margin: 50px 200px;
+  display: flex;
+  justify-content: space-between
+}
+
+li {
+  font-size: 20px;
+  color: rgba(21, 21, 29, 0.555) !important;
+  text-decoration: underline;
+}
+
+li :hover {
+  color:black;
+  cursor: pointer;
+}
