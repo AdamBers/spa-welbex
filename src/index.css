@@ -42,7 +42,8 @@ h5 {
 
 .task-item-title {
   flex: 20;
-  margin: 10px
+  margin: 10px;
+  border: none;
 }
 
 .content {
